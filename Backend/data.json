@@ -1,0 +1,212 @@
+[
+    {
+        "roomNumber": 101,
+        "beds": [
+            {
+                "bedNumber": 1,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 2,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 3,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 4,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 5,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 6,
+                "backgroundColor": "green",
+                "booked": false
+            }
+        ]
+    },
+    {
+        "roomNumber": 102,
+        "beds": [
+            {
+                "bedNumber": 1,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 2,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 3,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 4,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 5,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 6,
+                "backgroundColor": "green",
+                "booked": false
+            }
+        ]
+    },
+    {
+        "roomNumber": 103,
+        "beds": [
+            {
+                "bedNumber": 1,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 2,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 3,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 4,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 5,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 6,
+                "backgroundColor": "green",
+                "booked": false
+            }
+        ]
+    },
+    {
+        "roomNumber": 104,
+        "beds": [
+            {
+                "bedNumber": 1,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 2,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 3,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 4,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 5,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 6,
+                "backgroundColor": "green",
+                "booked": false
+            }
+        ]
+    },
+    {
+        "roomNumber": 105,
+        "beds": [
+            {
+                "bedNumber": 1,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 2,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 3,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 4,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 5,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 6,
+                "backgroundColor": "green",
+                "booked": false
+            }
+        ]
+    },
+    {
+        "roomNumber": 106,
+        "beds": [
+            {
+                "bedNumber": 1,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 2,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 3,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 4,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 5,
+                "backgroundColor": "green",
+                "booked": false
+            },
+            {
+                "bedNumber": 6,
+                "backgroundColor": "green",
+                "booked": false
+            }
+        ]
+    }
+]

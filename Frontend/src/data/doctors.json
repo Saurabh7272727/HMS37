@@ -1,0 +1,317 @@
+[
+    {
+        "doctor_id": "D001",
+        "name": "Dr A Anitha",
+        "degree": "MBBS, DNS",
+        "language": [
+            "English",
+            "Hindi"
+        ],
+        "img": "../../page-9.png",
+        "qualifications": [
+            "MBBS",
+            "MD in General Medicine"
+        ],
+        "experiences": "10 years of experience in treating general medical conditions.",
+        "timing": "Mon-Fri: 9:00 AM - 5:00 PM",
+        "address": "123 Medical St, Springfield"
+    },
+    {
+        "doctor_id": "D002",
+        "name": "Dr. AD Suri",
+        "degree": "MBBS",
+        "language": [
+            "English",
+            "French"
+        ],
+        "img": "../../page-10.png",
+        "qualifications": [
+            "MBBS",
+            "Diploma in Dermatology"
+        ],
+        "experiences": "8 years of experience in dermatology.",
+        "timing": "Mon-Sat: 10:00 AM - 6:00 PM",
+        "address": "456 Skin Care Ave, Springfield"
+    },
+    {
+        "doctor_id": "D003",
+        "name": "Dr. Emily Brown",
+        "degree": "BDS",
+        "language": [
+            "English",
+            "Hindi"
+        ],
+        "qualifications": [
+            "BDS",
+            "MDS in Orthodontics"
+        ],
+        "experiences": "5 years of experience in orthodontic treatments.",
+        "timing": "Mon-Fri: 8:00 AM - 4:00 PM",
+        "address": "789 Smile Rd, Springfield"
+    },
+    {
+        "doctor_id": "D004",
+        "name": "Dr. Michael Johnson",
+        "degree": "MD",
+        "language": [
+            "English",
+            "German"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Neurology"
+        ],
+        "experiences": "15 years of experience in neurological treatments.",
+        "timing": "Mon-Fri: 10:00 AM - 4:00 PM",
+        "address": "321 Brainwave Blvd, Springfield"
+    },
+    {
+        "doctor_id": "D005",
+        "name": "Dr. Linda Davis",
+        "degree": "DO",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "DO",
+            "PhD in Pediatric Medicine"
+        ],
+        "experiences": "12 years of experience in pediatric care.",
+        "timing": "Mon-Sat: 9:00 AM - 5:00 PM",
+        "address": "654 Kids Care Ave, Springfield"
+    },
+    {
+        "doctor_id": "D006",
+        "name": "Dr. James Wilson",
+        "degree": "MD",
+        "language": [
+            "English",
+            "Italian"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Cardiology"
+        ],
+        "experiences": "9 years of experience in cardiology.",
+        "timing": "Mon-Fri: 9:00 AM - 6:00 PM",
+        "address": "987 Heart Lane, Springfield"
+    },
+    {
+        "doctor_id": "D007",
+        "name": "Dr. Patricia Moore",
+        "degree": "MD",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in General Surgery"
+        ],
+        "experiences": "14 years of experience in surgery.",
+        "timing": "Mon-Fri: 8:30 AM - 4:30 PM",
+        "address": "321 Surgeon St, Springfield"
+    },
+    {
+        "doctor_id": "D008",
+        "name": "Dr. Robert Martinez",
+        "degree": "MD",
+        "language": [
+            "English",
+            "Spanish"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Obstetrics and Gynecology"
+        ],
+        "experiences": "10 years of experience in women's health.",
+        "timing": "Mon-Sat: 9:00 AM - 5:00 PM",
+        "address": "741 Women's Health Rd, Springfield"
+    },
+    {
+        "doctor_id": "D009",
+        "name": "Dr. David Taylor",
+        "degree": "MBBS",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "MBBS",
+            "Certification in Psychiatry"
+        ],
+        "experiences": "6 years of experience in mental health care.",
+        "timing": "Mon-Fri: 9:00 AM - 4:00 PM",
+        "address": "852 Mind Care Blvd, Springfield"
+    },
+    {
+        "doctor_id": "D010",
+        "name": "Dr. Lisa Anderson",
+        "degree": "MD",
+        "language": [
+            "English",
+            "French"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Radiology"
+        ],
+        "experiences": "8 years of experience in diagnostic imaging.",
+        "timing": "Mon-Fri: 9:00 AM - 5:00 PM",
+        "address": "963 Imaging Dr, Springfield"
+    },
+    {
+        "doctor_id": "D011",
+        "name": "Dr. Brian Thomas",
+        "degree": "DO",
+        "language": [
+            "English",
+            "Portuguese"
+        ],
+        "qualifications": [
+            "DO",
+            "Certification in Family Medicine"
+        ],
+        "experiences": "12 years of experience in family care.",
+        "timing": "Mon-Sun: 8:00 AM - 6:00 PM",
+        "address": "159 Family Care Blvd, Springfield"
+    },
+    {
+        "doctor_id": "D012",
+        "name": "Dr. Angela Garcia",
+        "degree": "MD",
+        "language": [
+            "English",
+            "Spanish"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Pediatrics"
+        ],
+        "experiences": "10 years of experience in pediatric care.",
+        "timing": "Mon-Sat: 9:00 AM - 5:00 PM",
+        "address": "753 Pediatric Rd, Springfield"
+    },
+    {
+        "doctor_id": "D013",
+        "name": "Dr. William White",
+        "degree": "MD",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Dermatology"
+        ],
+        "experiences": "7 years of experience in skin care.",
+        "timing": "Mon-Fri: 10:00 AM - 5:00 PM",
+        "address": "258 Skin Care Blvd, Springfield"
+    },
+    {
+        "doctor_id": "D014",
+        "name": "Dr. Karen Moore",
+        "degree": "BDS",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "BDS",
+            "MDS in Endodontics"
+        ],
+        "experiences": "6 years of experience in root canal treatment.",
+        "timing": "Mon-Fri: 8:00 AM - 4:00 PM",
+        "address": "741 Smile Lane, Springfield"
+    },
+    {
+        "doctor_id": "D015",
+        "name": "Dr. Matthew King",
+        "degree": "MD",
+        "language": [
+            "English",
+            "Chinese"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Rheumatology"
+        ],
+        "experiences": "5 years of experience in joint health care.",
+        "timing": "Mon-Fri: 9:00 AM - 4:00 PM",
+        "address": "159 Arthritis Ave, Springfield"
+    },
+    {
+        "doctor_id": "D016",
+        "name": "Dr. Nancy Clark",
+        "degree": "MD",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Gastroenterology"
+        ],
+        "experiences": "12 years of experience in digestive disorders.",
+        "timing": "Mon-Fri: 9:00 AM - 5:00 PM",
+        "address": "753 Digestive Rd, Springfield"
+    },
+    {
+        "doctor_id": "D017",
+        "name": "Dr. Charles Lewis",
+        "degree": "MD",
+        "language": [
+            "English",
+            "Arabic"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Ophthalmology"
+        ],
+        "experiences": "10 years of experience in eye care.",
+        "timing": "Mon-Fri: 8:00 AM - 6:00 PM",
+        "address": "321 Eye Care St, Springfield"
+    },
+    {
+        "doctor_id": "D018",
+        "name": "Dr. Susan Walker",
+        "degree": "MD",
+        "language": [
+            "English",
+            "German"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Pathology"
+        ],
+        "experiences": "9 years of experience in medical research and pathology.",
+        "timing": "Mon-Fri: 9:00 AM - 5:00 PM",
+        "address": "123 Pathology Blvd, Springfield"
+    },
+    {
+        "doctor_id": "D019",
+        "name": "Dr. Steven Harris",
+        "degree": "MD",
+        "language": [
+            "English"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Urology"
+        ],
+        "experiences": "14 years of experience in urological surgeries.",
+        "timing": "Mon-Fri: 9:00 AM - 5:00 PM",
+        "address": "654 Urology Dr, Springfield"
+    },
+    {
+        "doctor_id": "D020",
+        "name": "Dr. Jessica Lee",
+        "degree": "MD",
+        "language": [
+            "English",
+            "Mandarin"
+        ],
+        "qualifications": [
+            "MBBS",
+            "MD in Infectious Diseases"
+        ],
+        "experiences": "11 years of experience in treating infectious diseases.",
+        "timing": "Mon-Fri: 9:00 AM - 5:00 PM",
+        "address": "321 Infection Care Rd, Springfield"
+    }
+]

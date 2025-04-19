@@ -1,0 +1,50 @@
+$app-background-color: #f4f4f4;
+$app-header-color: #333;
+$app-card-background-color: #fff;
+$app-card-border-radius: 8px;
+$app-card-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+.app-container {
+  background-color: $app-background-color;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  color: $app-header-color;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-card {
+  background-color: $app-card-background-color;
+  border-radius: $app-card-border-radius;
+  box-shadow: $app-card-shadow;
+  padding: 15px;
+}
+
+.app-card-header {
+  font-weight: bold;
+}
+
+.app-card-image img {
+  width: 100%;
+  border-radius: $app-card-border-radius;
+}
+
+.app-card-body {
+  margin-top: 10px;
+}
+
+.app-card-button {
+  background-color: $app-header-color;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,209 @@
+$app-background-color: #f4f4f4;
+$app-header-background: #007bff;
+$app-header-text-color: #ffffff;
+
+.app {
+  background-color: $app-background-color;
+  font-family: Arial, sans-serif;
+
+  &__header {
+    background-color: $app-header-background;
+    color: $app-header-text-color;
+    padding: 20px;
+
+    &-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+
+      &-icon {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+      &-content {
+        h3 {
+          margin: 0;
+          font-size: 18px;
+        }
+
+        p {
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+
+  &__main {
+    width: 100%;
+    height: fit-content;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &::-webkit-scrollbar-behavior {
+      scroll-behavior: smooth;
+    }
+    div{
+      width:100%;
+      display: flex;
+      justify-content:start;
+      flex-wrap: wrap;
+      padding: 10px 0px 10px 210px;
+      gap: 2px 2px;
+      .doctor_boxes{
+        width: 300px;
+        height: 380px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+        border-radius: 3px;
+        img{
+          width: 80%;
+          height: 50%;
+          object-fit:cover;
+          margin-top: 3px;
+          border-radius: 5px;
+        }
+        .name_section{
+          width: 70%;
+          height: 40px;
+          margin-right: 19px;
+          margin-top: 5px;
+          padding:8px 5px 2px 0px;
+          font-size: 19px;
+          font-weight: 400;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .name_section_small{
+          width: 70%;
+          height: 20px;
+          margin-right: 19px;
+          margin-top: 5px;
+          padding:8px 5px 2px 0px;
+          color: gray;
+          text-wrap: nowrap;
+        }
+        button{
+          width: 50%;
+          height: 30px;
+          background-color: rgba(0, 0, 255, 0.507);
+          border: none;
+          margin-left: 78px;
+          margin-top: 34px;
+          color: white;
+          cursor: pointer;
+          &:hover{
+            background-color: rgba(0, 0, 255, 0.753);
+          }
+          &:active{
+            background-color: rgba(0, 0, 255, 0.384);
+            transform: scale(0.99);
+          }
+        }
+    }
+
+    .doctor_boxes_effect{
+      width: 300px;
+      height: 380px;
+      background-color: #ffffff;
+      border: 1px solid rgba(128, 128, 128, 0.377);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4px;
+      border-radius: 3px;
+      div{
+        width: 80%;
+        height: 50%;
+        background: linear-gradient(90deg, #e4e1e1 25%, #e7dcdc 50%, #fffefe 75%);
+        margin-top: 3px;
+        border-radius: 5px;
+      }
+      .name_section{
+        width: 70%;
+        height: 40px;
+        background-color: gainsboro;
+        margin-right: 19px;
+        margin-top: 5px;
+      }
+      .name_section_small{
+        width: 70%;
+        height: 20px;
+        background-color: gainsboro;
+        margin-right: 19px;
+        margin-top: 5px;
+      }
+      button{
+        width: 50%;
+        height: 30px;
+        background-color: rgba(0, 0, 255, 0.507);
+        border: none;
+        margin-left: 78px;
+        margin-top: 34px;
+        color: white;
+      }
+    }
+ 
+    }
+      
+      }
+        .footer{
+          width: 100%;
+          height:auto;
+          padding: 20px 20px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          background-color: #333;
+          button{
+            width: 50%;
+            height: 30px;
+            background-color: rgba(0, 0, 255, 0.507);
+            border: none;
+            margin-left: 78px;
+            margin-top: 34px;
+            color: white;
+          }
+          textarea{
+            &::-webkit-input-placeholder{
+              padding-left: 20px;
+              font-size: 14px;
+              padding-top: 20px;
+              font-weight: 500;
+            }
+          }
+          .form_section{
+            width: 40%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            input{
+              width: 90%;
+              height: 35px;
+              margin-bottom: 5px;
+              &::-webkit-input-placeholder{
+                padding-left: 10px;
+                font-size: 14px;
+                font-weight: 500;
+              }
+             border: none;
+             padding: 0px 10px;
+             border-radius: 3px;
+             &:focus{
+              border: none;  /* No border */
+  background-color: #f0f0f0; /* Light background when focused */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Light shadow around input */
+             }
+            }
+          }
+          .sugges{
+            width: 40%;
+            height: 200px;
+            padding: 30px 50px;
+            color: white;
+          }
+        }
+    }

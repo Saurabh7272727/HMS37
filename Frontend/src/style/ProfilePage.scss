@@ -1,0 +1,231 @@
+.profile{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .profile_main_page{
+        width: 80%;
+        height: 30%;
+        background-color: rgb(226, 219, 219);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .profile_box{
+            width: 240px;
+            height: 90%;
+            background-color: #343A40;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 65px;
+            font-weight: 600;
+            color: white;
+        }
+        .input_box_for_profile{
+            width: 600px;
+            height:90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+    .infoAbout_use{
+        width: 80%;
+        height: 57%;
+        .headers_line_section{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            gap: 120px;
+            button{
+                font-size: 19px;
+                font-weight: 400;
+                border:none;
+                cursor: pointer;
+                background-color: transparent;
+            }
+        }
+        .appointment_page{
+            width: 100%;
+            height: 80%;
+            background-color: rgb(236, 235, 235);
+            color: white;
+            padding: 10px 10px;
+        }
+    }
+    .logout_user_section{
+        width: 80%;
+        height:7% ;
+        background-color: #343A40;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 0px 20px;
+        button{
+            padding: 4px 20px;
+            background-color: red;
+            color: white;
+            font-weight: 400;
+            border: none;
+            border-radius: 2px;
+        }
+    }
+}
+
+
+.profileAppointmentList_page{
+    width: 80%;
+    height: 100%;
+     color: black;
+     table{
+        width: 80%;
+        height: 100%;
+        tr{
+             display: flex;
+             flex-direction: row;
+             width: 100%;
+             gap:3rem;
+            th{
+                width: 200px;
+                height: 30px;
+                background-color: #343A40;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }  
+            td{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 30px;
+            }
+        }
+     }
+}
+
+@media (max-width:1536px) {
+    .profile{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .profile_main_page{
+            width: 80%;
+            height: 30%;
+            background-color: rgb(226, 219, 219);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .profile_box{
+                width: 240px;
+                height: 90%;
+                background-color: #343A40;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 65px;
+                font-weight: 600;
+                color: white;
+            }
+            .input_box_for_profile{
+                width: 600px;
+                height:90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+        }
+        .infoAbout_use{
+            width: 80%;
+            height: 57%;
+            .headers_line_section{
+                width: 100%;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                gap: 120px;
+                button{
+                    font-size: 19px;
+                    font-weight: 400;
+                    border:none;
+                    cursor: pointer;
+                    background-color: transparent;
+                }
+            }
+            .appointment_page{
+                width: 100%;
+                height: 80%;
+                background-color: rgb(236, 235, 235);
+                color: white;
+                padding: 10px 10px;
+            }
+        }
+        .logout_user_section{
+            width: 80%;
+            height:7% ;
+            background-color: #343A40;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 0px 20px;
+            button{
+                padding: 4px 20px;
+                background-color: red;
+                color: white;
+                font-weight: 400;
+                border: none;
+                border-radius: 2px;
+            }
+        }
+    }
+    
+    
+    .profileAppointmentList_page{
+        width: 100%;
+        height: 100%;
+         color: black;
+         table{
+            width: 100%;
+            height: 100%;
+            tr{
+                 display: flex;
+                 flex-direction: row;
+                 width: 100%;
+                 gap:1rem;
+                th{
+                    width: 157px;
+                    height: 30px;
+                    background-color: #343A40;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }  
+                td{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 157px;
+                    height: 30px;
+                }
+            }
+         }
+    } 
+}

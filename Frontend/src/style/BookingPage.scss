@@ -1,0 +1,180 @@
+.top_of_booking{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    button{
+        width: 90%;
+        height: 50px;
+        margin: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #343A40;
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+        border: none;
+        border-radius: 10px;
+    }
+    .list_main{
+        width: 90%;
+        height: 300px;
+        table{
+            width: 100%;
+            height:auto;
+            tr{
+                width: 80%;
+                th{
+                    width:120px;
+                    height: 30px;
+                    border: 1px solid gray;
+                }
+                td{
+                    width:120px;
+                    height: 30px;
+                    border: 1px solid gray;
+                    text-align: center;
+                }
+                .apply_btn{
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #343A40;
+                        color: white;
+                    }
+                    &:active{
+                        background-color: white;
+                        color: #343A40;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.bed-booking-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+    }
+
+    .bed-options {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+     .bed-options-2{
+        display: flex;
+        width: 350px;
+        height: auto;
+        padding: 10px 10px;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        gap: 5px;
+        .button_2{
+            width: 100px;
+            height: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            border: none;
+            cursor: pointer;
+        }
+        .button{
+            width: 100px;
+            height: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+     }
+     .bed-number_2{
+        width: 60px;
+        height: 40px;
+        background-color:#0dee72;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:2px;
+        cursor: pointer;
+        margin: 7px;
+        border: 1px solid #333;
+     }
+    .bed-number {
+        width: 60px;
+        height: 40px;
+        background-color:#333;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:2px;
+        cursor: pointer;
+        margin: 7px;
+        &.selected {
+            background-color: #4CAF50;
+        }
+
+        &:hover {
+            background-color: #ff7043;
+        }
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+}
