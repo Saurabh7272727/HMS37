@@ -127,7 +127,7 @@ const AllTags = () => {
                     </div>
                     <p>Book Appointment</p>
                 </div>
-                <div className="card" onClick={() => alert('No response')}>
+                <div className="card" onClick={() => navi('/FindDoctorPage')}>
                     <div className="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                     </div>
@@ -145,7 +145,7 @@ const AllTags = () => {
                     </div>
                     <p>AI consult</p>
                 </div>
-                <div className="card">
+                <div className="card" onClick={() => navi('/studycase')}>
                     <div className="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-building"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><path d="M9 9v6"></path><path d="M15 9v6"></path><path d="M9 12h6"></path></svg>
                     </div>

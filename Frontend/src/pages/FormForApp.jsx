@@ -48,6 +48,7 @@ const AppointmentForm = () => {
         return result;
     };
     const randomNumber = generateRandomString();
+    console.log(randomNumber);
     const handleSubmit = (e) => {
         e.preventDefault();
         toast.success('Wait...');

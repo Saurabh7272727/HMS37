@@ -19,7 +19,9 @@ import List from './pages/List.jsx';
 import Test from './pages/Test.jsx';
 import HMSDocumentary from './components/Dev.jsx';
 import Admin from './pages/Admin.jsx';
-
+import LocationPage from './pages/LocationPage.jsx';
+import StudyCaseHMS from './pages/StudyCasePage.jsx';
+import FindDoctorPage from './pages/FindDoctorPage.jsx';
 const App = () => {
   const [data, setData] = useState();
   const userToken = Cookies.get('userToken');
@@ -57,6 +59,9 @@ const App = () => {
           <Route path='/devLever/' element={<HMSDocumentary />} />
           <Route path='/admin' element={<Admin />} />
           <Route path='*' element={<Error />} />
+          <Route path='/LocationPage' element={<LocationPage />} />
+          <Route path='/studycase' element={<StudyCaseHMS />} />
+                <Route path='/FindDoctorPage' element={<FindDoctorPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

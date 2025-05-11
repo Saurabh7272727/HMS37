@@ -13,8 +13,8 @@ const BannerTest = () => {
                 </div>
                 <div className='w-[40%] h-[90%] rounded-lg  ring-8 ring-blue-300 relative'>
                     <img className='w-[100%] h-[100%] object-contain' src="../../doctors-day-cute-young-handsome-man-lab-coat-glasses-smiling-holding-book.jpg" alt="" />
-                    <img className='w-[80%] h-[80%] absolute top-2 rounded-[50%] translate-x-[-300px]' src="../../happy-doctor-holding-clipboard-with-patients.jpg" alt="" />
-                    <img className='w-[30%] h-[30%] absolute top-2 rounded-[50%] left-[90px] translate-y-[400px]' src="../../healthcare-workers-preventing-virus-quarantine-campaign-concept-cheerful-friendly-asian-female-physician-doctor-with-clipboard-daily-checkup-standing-white-background.jpg" alt="" />
+                    <img className='w-[60%] h-[60%] absolute top-2 rounded-[50%] translate-x-[-100px]' src="../../happy-doctor-holding-clipboard-with-patients.jpg" alt="" />
+                    <img className='w-[30%] h-[30%] absolute top-2 rounded-[50%] left-[90px] translate-y-[300px]' src="../../healthcare-workers-preventing-virus-quarantine-campaign-concept-cheerful-friendly-asian-female-physician-doctor-with-clipboard-daily-checkup-standing-white-background.jpg" alt="" />
                 </div>
             </div>
 

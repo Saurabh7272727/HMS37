@@ -68,7 +68,7 @@ const Header = ({ login, userData }) => {
                             <ul className="absolute hidden group-hover:block group-hover:visible translate-y-[-30px] bg-gray-600 rounded shadow-lg mt-2 w-48 z-20">
                                 <li onClick={() => navi('devLever')}><a href="#" className="block px-4 py-2 text-gray-300 hover:bg-gray-700">Dev Lever</a></li>
                                 <li onClick={() => navi('/admin')}><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Admin</a></li>
-                                <li><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Local Jon</a></li>
+                                <li onClick={() => navi('/FindDoctorPage')}><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Find Doctor</a></li>
                             </ul>
                         </li>
                         <li className="relative group">
@@ -76,9 +76,9 @@ const Header = ({ login, userData }) => {
                                 Services
                             </a>
                             <ul className="absolute hidden group-hover:block group-hover:translate-y-[-30px] bg-gray-600 rounded shadow-lg mt-2 w-48 z-20">
-                                <li><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Study Case</a></li>
+                                <li onClick={() => navi('/studycase')}><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Study Case</a></li>
                                 <li onClick={() => navi('/list')}><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">List</a></li>
-                                <li><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Locations</a></li>
+                                <li onClick={() => navi('/LocationPage')}><a href="#" className="block px-4 py-2 text-white hover:bg-gray-700">Locations</a></li>
                             </ul>
                         </li>
                         <li className="relative group">

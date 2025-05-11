@@ -94,9 +94,9 @@ const Signup = () => {
                                 {/* <label htmlFor="otp">OTP:37</label>
                                 <input type="number" name='otp' onChange={OtpHandler} id='otp' required placeholder='write otp here' autoFocus />
                                 <br /> */}
-                                <button type='submit' className='mt-[100px]'>Verify</button>
+                                <button type='submit' className='mt-[80px]'>Verify</button>
                             </form>
-                            <div className='w-[500px] min-w-[400px] h-[400px] bg-slate-800 flex justify-center items-center absolute top-0 translate-y-[-20px] rounded-lg'>
+                            <div className='w-[500px] min-w-[400px] h-[400px] bg-slate-800 flex justify-center items-center absolute top-0 translate-y-[-40px] rounded-lg z-3'>
                                 <OtpComponent email={data.email} OtpHandler={OtpHandler} />
                                 <button onClick={() => boxOtpHandler()} className='w-[10%] h-[90%] bg-transparent flex justify-start pt-3 pl-3 text-2xl text-white'><RxCross1 /></button>
                             </div>
@@ -122,9 +122,6 @@ const Signup = () => {
                                     <p style={{ color: 'red' }}>* you have already account , to click on top side</p>
                                     <p style={{ color: 'red' }}>* password are must have 8 character</p>
                                     <br />
-                                    <p>Hi' surviour</p><br />
-                                    <p> :: Emphasizes both the medical expertise and the empathetic nature of care.</p><br />
-                                    <h5>In healthcare, a policy refers to a set of guidelines or principles that govern how a healthcare facility or system operates. This could include things like patient care standards, confidentiality policies (HIPAA in the U.S.), or medical ethics.</h5>
 
                                 </form> : <Login />
                             }
